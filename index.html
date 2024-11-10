@@ -60,9 +60,8 @@
 		</form>
 	</div>
 </div>
-
+<!-- template tag -->
 <hr>
-
 <button   onclick="showtemp()">Show link</button>	
 	<!--template tag is hidden tag  -->
 <div class="temp">
@@ -73,10 +72,10 @@
 </div>
 <!-- script -->
 <script>
-	function showtemp() {
-		let temp = document.getElementsByTagName("template")[0];
-		let clon = temp.content.cloneNode(true);
-		document.body.appendChild(clon);
+function showtemp() {
+	let temp = document.getElementsByTagName("template")[0];
+	let clon = temp.content.cloneNode(true);
+	document.body.appendChild(clon);
 	}
 </script>
 </body>

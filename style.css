@@ -1,0 +1,11 @@
+::grammar-error{
+    color: red;
+    text-decoration: underline;
+}
+table{
+    border: 2px solid red;
+    padding: 5px;
+}
+th{
+    padding: 6px;
+}

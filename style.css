@@ -1,11 +1,19 @@
+/* start ganeral Style */
 ::grammar-error{
     color: red;
     text-decoration: underline;
+}
+label::selection{
+    background-color: lightblue;
+}
+p::selection{
+    background-color: red;
 }
 hr{
     height: 2px;
     color: lightgray;
 }
+/* end ganeral style */
 table{
     border: 2px solid red;
     padding: 5px;

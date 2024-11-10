@@ -60,5 +60,24 @@
 		</form>
 	</div>
 </div>
+
+<hr>
+
+<button   onclick="showtemp()">Show link</button>	
+	<!--template tag is hidden tag  -->
+<div class="temp">
+	<template> 
+		<h2>My website link</h2>
+		<a href="#">https://codepython.com</a>
+	</template>	
+</div>
+<!-- script -->
+<script>
+	function showtemp() {
+		let temp = document.getElementsByTagName("template")[0];
+		let clon = temp.content.cloneNode(true);
+		document.body.appendChild(clon);
+	}
+</script>
 </body>
 </html>

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:  rgb(237, 237, 237);
+}
+header{
+    border: 2px solid red;
+    background-color:  rgb(237, 237, 237);
+    height: 450px;
+}
+#content{
+    border: 1px solid black;
+    background-color: antiquewhite;
+    min-height: 300px;
+}
+
+#articel{
+    border: 1px solid silver;
+    background-color: azure;
+    min-height: 300px;
+}
+footer{
+    border: 2px solid goldenrod;
+    background-color: beige;
+    height: 300px;
+
+}
